@@ -15,6 +15,7 @@ struct WeatherModel {
         return String(format: "%.1f", temperature)
     }
     
+    
     var conditionName:String{
         switch conditionId {
         case 200...232:
